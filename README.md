@@ -43,30 +43,9 @@ The pipeline architecture consists of the following stages:
 
 The modular design leverages PySpark for distributed processing and Google Cloud services for storage and database management, ensuring data is available for reporting and analytics.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Directory Structure
 
-'''seismic_data_pipeline/ ├── seismic_data_pipeline.py # Core pipeline code with ETL modules ├── config.py # Configuration file for API URLs, GCS, BigQuery └── README.md # Project documentation historical_etl.py # Main script for historical data ETL daily_etl.py # Main script for daily data ETL requirements.txt # Python dependencies'''
-
-
-
-
+'''
 .
 ├── seismic_data_pipeline/
 │   ├── seismic_data_pipeline.py     # Core pipeline code with ETL modules
@@ -75,7 +54,7 @@ The modular design leverages PySpark for distributed processing and Google Cloud
 ├── historical_etl.py                # Main script for historical data ETL
 ├── daily_etl.py                     # Main script for daily data ETL
 ├── requirements.txt                 # Python dependencies
-
+'''
 
 ## Modules
 
